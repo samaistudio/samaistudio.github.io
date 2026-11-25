@@ -1,0 +1,185 @@
+{
+ "slug": "marketing-agency",
+ "name": "Rheinpixel Marketing Agency",
+ "industry": "Marketing",
+ "city": "Düsseldorf",
+ "people": 18,
+ "opted_in": 17,
+ "month": "2026-11",
+ "current": {
+  "month": "2026-11",
+  "active_users": 17,
+  "hours_saved": 54.8,
+  "value_eur": 2795,
+  "spend_eur": 618,
+  "net_eur": 2177,
+  "correction_rate": 0.092,
+  "benchmark_hours": 44.3
+ },
+ "months": [
+  {
+   "month": "2026-06",
+   "active_users": 9,
+   "hours_saved": 10.8,
+   "value_eur": 553,
+   "spend_eur": 618,
+   "net_eur": -65,
+   "correction_rate": 0.143,
+   "benchmark_hours": 8.7
+  },
+  {
+   "month": "2026-07",
+   "active_users": 17,
+   "hours_saved": 32.3,
+   "value_eur": 1647,
+   "spend_eur": 618,
+   "net_eur": 1029,
+   "correction_rate": 0.162,
+   "benchmark_hours": 26.1
+  },
+  {
+   "month": "2026-08",
+   "active_users": 17,
+   "hours_saved": 42.7,
+   "value_eur": 2184,
+   "spend_eur": 618,
+   "net_eur": 1566,
+   "correction_rate": 0.116,
+   "benchmark_hours": 34.5
+  },
+  {
+   "month": "2026-09",
+   "active_users": 17,
+   "hours_saved": 46.3,
+   "value_eur": 2370,
+   "spend_eur": 618,
+   "net_eur": 1752,
+   "correction_rate": 0.107,
+   "benchmark_hours": 37.5
+  },
+  {
+   "month": "2026-10",
+   "active_users": 17,
+   "hours_saved": 49.7,
+   "value_eur": 2547,
+   "spend_eur": 618,
+   "net_eur": 1929,
+   "correction_rate": 0.12,
+   "benchmark_hours": 40.2
+  },
+  {
+   "month": "2026-11",
+   "active_users": 17,
+   "hours_saved": 54.8,
+   "value_eur": 2795,
+   "spend_eur": 618,
+   "net_eur": 2177,
+   "correction_rate": 0.092,
+   "benchmark_hours": 44.3
+  }
+ ],
+ "tasks": [
+  {
+   "task": "Writing texts",
+   "hours_saved": 29.0
+  },
+  {
+   "task": "Design",
+   "hours_saved": 14.2
+  },
+  {
+   "task": "Spreadsheets & data",
+   "hours_saved": 4.3
+  },
+  {
+   "task": "Emails",
+   "hours_saved": 3.8
+  },
+  {
+   "task": "Research",
+   "hours_saved": 3.5
+  }
+ ],
+ "tools": [
+  {
+   "tool": "ChatGPT Team",
+   "seats": 18,
+   "active_users": 17,
+   "unused_seats": 1,
+   "monthly_cost_eur": 522,
+   "wasted_eur": 29
+  },
+  {
+   "tool": "Canva AI",
+   "seats": 5,
+   "active_users": 5,
+   "unused_seats": 0,
+   "monthly_cost_eur": 60,
+   "wasted_eur": 0
+  },
+  {
+   "tool": "DeepL Pro",
+   "seats": 4,
+   "active_users": 4,
+   "unused_seats": 0,
+   "monthly_cost_eur": 36,
+   "wasted_eur": 0
+  }
+ ],
+ "roles": [
+  {
+   "role": "Content",
+   "people": 7,
+   "hidden": false,
+   "adoption": 1.0,
+   "hours_saved": 24.6
+  },
+  {
+   "role": "Design",
+   "people": 5,
+   "hidden": false,
+   "adoption": 1.0,
+   "hours_saved": 16.1
+  },
+  {
+   "role": "Account management",
+   "people": 6,
+   "hidden": false,
+   "adoption": 1.0,
+   "hours_saved": 14.1
+  }
+ ],
+ "tips": [
+  {
+   "kind": "save",
+   "text": "1 ChatGPT Team seat was not used in November. Reassigning or cancelling them saves €29/month."
+  },
+  {
+   "kind": "grow",
+   "text": "Most time is saved on writing texts (29.0 h in November). Share the prompts that work as a team template."
+  }
+ ],
+ "k_min": 5,
+ "kpis": [
+  {
+   "name": "Deliverables shipped",
+   "first_month": "2026-06",
+   "first": 223,
+   "last_month": "2026-11",
+   "last": 225
+  }
+ ],
+ "measurement": {
+  "method": "calibrated",
+  "calibration": {
+   "factor": 1.24,
+   "n": 13,
+   "month": "2026-11",
+   "survey_hours_per_user": 3.2,
+   "benchmark_hours_per_user": 2.6,
+   "capped": false
+  },
+  "evidence": [],
+  "ai_start_month": "2026-06"
+ }
+}

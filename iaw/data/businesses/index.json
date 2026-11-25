@@ -1,0 +1,62 @@
+[
+ {
+  "slug": "tax-office",
+  "name": "Becker & Partner Tax Advisors",
+  "industry": "Tax advisory",
+  "people": 11
+ },
+ {
+  "slug": "dental-practice",
+  "name": "Dental Practice Dr. Yilmaz",
+  "industry": "Healthcare",
+  "people": 14
+ },
+ {
+  "slug": "marketing-agency",
+  "name": "Rheinpixel Marketing Agency",
+  "industry": "Marketing",
+  "people": 18
+ },
+ {
+  "slug": "electrician",
+  "name": "Kaya Electrical Services",
+  "industry": "Trades",
+  "people": 22
+ },
+ {
+  "slug": "real-estate",
+  "name": "Lindenthal Real Estate",
+  "industry": "Real estate",
+  "people": 7
+ },
+ {
+  "slug": "online-shop",
+  "name": "Kräuterkiste Online Shop",
+  "industry": "E-commerce",
+  "people": 12
+ },
+ {
+  "slug": "it-services",
+  "name": "Nordbyte IT Services",
+  "industry": "IT services",
+  "people": 25
+ },
+ {
+  "slug": "architects",
+  "name": "Hartmann Architects",
+  "industry": "Architecture",
+  "people": 10
+ },
+ {
+  "slug": "hotel",
+  "name": "Hotel am Rheinufer",
+  "industry": "Hospitality",
+  "people": 30
+ },
+ {
+  "slug": "law-firm",
+  "name": "Schulz Labour Law Firm",
+  "industry": "Legal",
+  "people": 12
+ }
+]

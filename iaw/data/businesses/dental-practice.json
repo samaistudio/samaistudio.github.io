@@ -1,0 +1,192 @@
+{
+ "slug": "dental-practice",
+ "name": "Dental Practice Dr. Yilmaz",
+ "industry": "Healthcare",
+ "city": "Bonn",
+ "people": 14,
+ "opted_in": 14,
+ "month": "2026-11",
+ "current": {
+  "month": "2026-11",
+  "active_users": 3,
+  "hours_saved": 4.9,
+  "value_eur": 423,
+  "spend_eur": 192,
+  "net_eur": 231,
+  "correction_rate": 0.176,
+  "benchmark_hours": 4.9
+ },
+ "months": [
+  {
+   "month": "2026-06",
+   "active_users": 0,
+   "hours_saved": 0.0,
+   "value_eur": 0,
+   "spend_eur": 192,
+   "net_eur": -192,
+   "correction_rate": null,
+   "benchmark_hours": 0.0
+  },
+  {
+   "month": "2026-07",
+   "active_users": 0,
+   "hours_saved": 0.0,
+   "value_eur": 0,
+   "spend_eur": 192,
+   "net_eur": -192,
+   "correction_rate": null,
+   "benchmark_hours": 0.0
+  },
+  {
+   "month": "2026-08",
+   "active_users": 0,
+   "hours_saved": 0.0,
+   "value_eur": 0,
+   "spend_eur": 192,
+   "net_eur": -192,
+   "correction_rate": null,
+   "benchmark_hours": 0.0
+  },
+  {
+   "month": "2026-09",
+   "active_users": 1,
+   "hours_saved": 0.1,
+   "value_eur": 16,
+   "spend_eur": 192,
+   "net_eur": -176,
+   "correction_rate": 0.0,
+   "benchmark_hours": 0.1
+  },
+  {
+   "month": "2026-10",
+   "active_users": 3,
+   "hours_saved": 3.3,
+   "value_eur": 273,
+   "spend_eur": 192,
+   "net_eur": 81,
+   "correction_rate": 0.171,
+   "benchmark_hours": 3.3
+  },
+  {
+   "month": "2026-11",
+   "active_users": 3,
+   "hours_saved": 4.9,
+   "value_eur": 423,
+   "spend_eur": 192,
+   "net_eur": 231,
+   "correction_rate": 0.176,
+   "benchmark_hours": 4.9
+  }
+ ],
+ "tasks": [
+  {
+   "task": "Writing texts",
+   "hours_saved": 2.5
+  },
+  {
+   "task": "Emails",
+   "hours_saved": 0.6
+  },
+  {
+   "task": "Admin & planning",
+   "hours_saved": 0.6
+  },
+  {
+   "task": "Research",
+   "hours_saved": 0.3
+  },
+  {
+   "task": "Customer replies",
+   "hours_saved": 0.1
+  }
+ ],
+ "tools": [
+  {
+   "tool": "ChatGPT Team",
+   "seats": 6,
+   "active_users": 3,
+   "unused_seats": 3,
+   "monthly_cost_eur": 174,
+   "wasted_eur": 87
+  },
+  {
+   "tool": "DeepL Pro",
+   "seats": 2,
+   "active_users": 2,
+   "unused_seats": 0,
+   "monthly_cost_eur": 18,
+   "wasted_eur": 0
+  }
+ ],
+ "roles": [
+  {
+   "role": "Front desk",
+   "people": 5,
+   "hidden": false,
+   "adoption": 0.2,
+   "hours_saved": 0.8
+  },
+  {
+   "role": "Dentists",
+   "people": 3,
+   "hidden": true
+  },
+  {
+   "role": "Assistants",
+   "people": 6,
+   "hidden": false,
+   "adoption": 0.17,
+   "hours_saved": 0.5
+  }
+ ],
+ "tips": [
+  {
+   "kind": "save",
+   "text": "3 ChatGPT Team seats were not used in November. Reassigning or cancelling them saves €87/month."
+  },
+  {
+   "kind": "train",
+   "text": "Only 17% of Assistants use AI. A one-hour hands-on session usually lifts this quickly."
+  },
+  {
+   "kind": "grow",
+   "text": "Most time is saved on writing texts (2.5 h in November). Share the prompts that work as a team template."
+  },
+  {
+   "kind": "train",
+   "text": "AI answers needed fixing 18% of the time. Giving the AI the goal, context and an example up front cuts this."
+  }
+ ],
+ "k_min": 5,
+ "kpis": [
+  {
+   "name": "Appointments handled",
+   "first_month": "2026-06",
+   "first": 1901,
+   "last_month": "2026-11",
+   "last": 2058
+  }
+ ],
+ "measurement": {
+  "method": "benchmark",
+  "calibration": {
+   "factor": null,
+   "n": 2,
+   "month": "2026-11",
+   "survey_hours_per_user": 1.3,
+   "benchmark_hours_per_user": 1.6,
+   "capped": false
+  },
+  "evidence": [
+   {
+    "name": "Appointments handled",
+    "before": 91.68,
+    "after": 95.79,
+    "change": 0.045,
+    "months_before": 3,
+    "months_after": 3
+   }
+  ],
+  "ai_start_month": "2026-09"
+ }
+}

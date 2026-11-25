@@ -1,0 +1,177 @@
+{
+ "slug": "tax-office",
+ "name": "Becker & Partner Tax Advisors",
+ "industry": "Tax advisory",
+ "city": "Cologne",
+ "people": 11,
+ "opted_in": 9,
+ "month": "2026-11",
+ "current": {
+  "month": "2026-11",
+  "active_users": 8,
+  "hours_saved": 23.0,
+  "value_eur": 1219,
+  "spend_eur": 335,
+  "net_eur": 884,
+  "correction_rate": 0.086,
+  "benchmark_hours": 20.8
+ },
+ "months": [
+  {
+   "month": "2026-06",
+   "active_users": 0,
+   "hours_saved": 0.0,
+   "value_eur": 0,
+   "spend_eur": 335,
+   "net_eur": -335,
+   "correction_rate": null,
+   "benchmark_hours": 0.0
+  },
+  {
+   "month": "2026-07",
+   "active_users": 1,
+   "hours_saved": 0.4,
+   "value_eur": 19,
+   "spend_eur": 335,
+   "net_eur": -316,
+   "correction_rate": 0.0,
+   "benchmark_hours": 0.4
+  },
+  {
+   "month": "2026-08",
+   "active_users": 8,
+   "hours_saved": 8.8,
+   "value_eur": 439,
+   "spend_eur": 335,
+   "net_eur": 104,
+   "correction_rate": 0.132,
+   "benchmark_hours": 8.0
+  },
+  {
+   "month": "2026-09",
+   "active_users": 8,
+   "hours_saved": 16.0,
+   "value_eur": 931,
+   "spend_eur": 335,
+   "net_eur": 596,
+   "correction_rate": 0.156,
+   "benchmark_hours": 14.5
+  },
+  {
+   "month": "2026-10",
+   "active_users": 8,
+   "hours_saved": 21.8,
+   "value_eur": 1161,
+   "spend_eur": 335,
+   "net_eur": 826,
+   "correction_rate": 0.13,
+   "benchmark_hours": 19.7
+  },
+  {
+   "month": "2026-11",
+   "active_users": 8,
+   "hours_saved": 23.0,
+   "value_eur": 1219,
+   "spend_eur": 335,
+   "net_eur": 884,
+   "correction_rate": 0.086,
+   "benchmark_hours": 20.8
+  }
+ ],
+ "tasks": [
+  {
+   "task": "Spreadsheets & data",
+   "hours_saved": 15.1
+  },
+  {
+   "task": "Emails",
+   "hours_saved": 2.9
+  },
+  {
+   "task": "Research",
+   "hours_saved": 2.1
+  },
+  {
+   "task": "Writing texts",
+   "hours_saved": 1.9
+  },
+  {
+   "task": "Admin & planning",
+   "hours_saved": 1.0
+  }
+ ],
+ "tools": [
+  {
+   "tool": "Microsoft 365 Copilot",
+   "seats": 11,
+   "active_users": 8,
+   "unused_seats": 3,
+   "monthly_cost_eur": 308,
+   "wasted_eur": 84
+  },
+  {
+   "tool": "DeepL Pro",
+   "seats": 3,
+   "active_users": 1,
+   "unused_seats": 2,
+   "monthly_cost_eur": 27,
+   "wasted_eur": 18
+  }
+ ],
+ "roles": [
+  {
+   "role": "Tax advisors",
+   "people": 4,
+   "hidden": true
+  },
+  {
+   "role": "Accountants",
+   "people": 7,
+   "hidden": false,
+   "adoption": 0.86,
+   "hours_saved": 18.4
+  }
+ ],
+ "tips": [
+  {
+   "kind": "save",
+   "text": "3 Microsoft 365 Copilot seats were not used in November. Reassigning or cancelling them saves €84/month."
+  },
+  {
+   "kind": "grow",
+   "text": "Most time is saved on spreadsheets & data (15.1 h in November). Share the prompts that work as a team template."
+  }
+ ],
+ "k_min": 5,
+ "kpis": [
+  {
+   "name": "Tax returns filed",
+   "first_month": "2026-06",
+   "first": 137,
+   "last_month": "2026-11",
+   "last": 159
+  }
+ ],
+ "measurement": {
+  "method": "calibrated",
+  "calibration": {
+   "factor": 1.11,
+   "n": 6,
+   "month": "2026-11",
+   "survey_hours_per_user": 2.9,
+   "benchmark_hours_per_user": 2.6,
+   "capped": false
+  },
+  "evidence": [
+   {
+    "name": "Tax returns filed",
+    "before": 8.3,
+    "after": 9.38,
+    "change": 0.13,
+    "months_before": 1,
+    "months_after": 5
+   }
+  ],
+  "ai_start_month": "2026-07"
+ }
+}

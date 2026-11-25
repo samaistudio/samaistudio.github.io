@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>IsAIWorthIt – Guided tour</title>
+<style>
+  /* Inter, self-hosted (SIL Open Font License 1.1, fonts/OFL.txt): no request to another server. */
+  @font-face { font-family: "Inter"; font-style: normal; font-weight: 100 900; font-display: swap; src: url("fonts/inter-latin-wght-normal.woff2") format("woff2"); }
+  /* Same small system as the dashboard: ground, ink, one grey, one hairline, one green; square corners; no shadows.
+     Always light: the tour documents light screenshots, which would sit on a dark page as white slabs. */
+  :root { color-scheme: light; --bg: #ffffff; --ink: #111110; --muted: #5f5f5c; --line: rgba(17,17,16,.14); --ctl: rgba(17,17,16,.45); --accent: #0f6b4f; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.5 Inter, ui-sans-serif, system-ui, sans-serif; -webkit-font-smoothing: antialiased; }
+  a { color: inherit; text-underline-offset: 4px; }
+  a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  header { border-bottom: 1px solid var(--line); }
+  .in { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
+  header .in { display: flex; align-items: center; justify-content: space-between; gap: 16px; min-height: 56px; }
+  .brand { font-weight: 600; white-space: nowrap; }
+  .brand span { color: var(--muted); font-weight: 400; }
+  .btn { display: inline-flex; align-items: center; height: 44px; padding: 0 14px; border: 1px solid var(--ctl); text-decoration: none; font-weight: 500; white-space: nowrap; transition: border-color 150ms; }
+  @media (hover: hover) { .btn:hover { border-color: var(--ink); } }
+  h1 { font-size: clamp(28px, 1vw + 22px, 36px); line-height: 1.15; letter-spacing: -.02em; font-weight: 600; margin: 48px 0 12px; }
+  .lead { color: var(--muted); max-width: 62ch; margin: 0; }
+  ol.steps { list-style: none; margin: 40px 0 0; padding: 0; }
+  .step { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 2.4fr); gap: 40px; padding: 40px 0; border-top: 1px solid var(--line); align-items: start; }
+  .k { font-size: 13px; font-weight: 500; color: var(--muted); font-variant-numeric: tabular-nums; }
+  .step h2 { font-size: 20px; line-height: 1.3; letter-spacing: -.01em; font-weight: 600; margin: 6px 0 10px; }
+  .step p { margin: 0; max-width: 46ch; }
+  .step .text { position: sticky; top: 24px; }
+  figure { margin: 0; }
+  figure a { display: block; }
+  figure img { display: block; width: 100%; height: auto; border: 1px solid var(--line); background: #fff; }
+  figcaption { display: none; margin-top: 8px; color: var(--muted); font-size: 13px; }
+  footer { border-top: 1px solid var(--line); margin-top: 24px; padding: 24px 0 48px; color: var(--muted); font-size: 14px; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px; }
+  footer .links { display: flex; flex-wrap: wrap; gap: 8px 24px; }
+  @media (max-width: 860px) {
+    .step { grid-template-columns: 1fr; gap: 16px; padding: 32px 0; }
+    .step .text { position: static; }
+    .in { padding: 0 16px; }
+    .brand span { display: none; }
+    figcaption { display: block; }
+  }
+</style>
+</head>
+<body>
+<header><div class="in">
+  <span class="brand">IsAIWorthIt <span>· Guided tour</span></span>
+  <a class="btn" href="../">Open the dashboard</a>
+</div></header>
+
+<main class="in">
+  <h1>IsAIWorthIt in nine screens</h1>
+  <p class="lead">A tool that shows a small business what its AI tools save and what the licences cost. Read from top to bottom. All businesses are fictional and all numbers are simulated.</p>
+
+  <ol class="steps">
+    <li class="step"><div class="text"><span class="k">1 of 9</span><h2>The answer in one line</h2>
+      <p>Steps 1 to 4 show Becker &amp; Partner, a fictional tax office in Cologne with 11 people. The headline is the value of the time saved, minus what the AI licences cost. Under it: hours saved, how many people use AI, and how much goes to seats nobody uses.</p></div>
+      <figure><a href="img/01-answer.jpg"><img src="img/01-answer.jpg" alt="Headline: November, €1,219 saved minus €335 licences equals €884; 23.0 hours saved, 8 of 9 people use AI, €102 on unused licences" loading="lazy"></a><figcaption>Tap to open full size</figcaption></figure></li>
+
+    <li class="step"><div class="text"><span class="k">2 of 9</span><h2>What to do next</h2>
+      <p>Every month ends with two or three concrete steps, such as cancelling unused seats. The links under them jump to the part of the page that answers each question.</p></div>
+      <figure><a href="img/02-next.jpg"><img src="img/02-next.jpg" alt="What to do next: three Microsoft 365 Copilot seats were not used, most time is saved on spreadsheets and data. Below, links such as Did AI pay off?" loading="lazy"></a><figcaption>Tap to open full size</figcaption></figure></li>
+
+    <li class="step"><div class="text"><span class="k">3 of 9</span><h2>Month by month against the licences</h2>
+      <p>Bars show the value of the time saved. The dashed line is the licence cost. The light part of a bar only covers the licences; the dark part is the gain.</p></div>
+      <figure><a href="img/03-chart.jpg"><img src="img/03-chart.jpg" alt="Bar chart from June to November with a dashed licence line at €335; the light part of each bar covers the licences only, the dark part is the gain above them" loading="lazy"></a><figcaption>Tap to open full size</figcaption></figure></li>
+
+    <li class="step"><div class="text"><span class="k">4 of 9</span><h2>Seats paid for but not used</h2>
+      <p>Each square is one licence seat: filled when someone used it, empty when nobody did. Becker &amp; Partner pays for 5 seats nobody used. Teams appear only when they have 5 or more people, so the four tax advisors are not shown. With only one team hidden, its hours can be worked out from the company total, and the page says so.</p></div>
+      <figure><a href="img/04-licences.jpg"><img src="img/04-licences.jpg" alt="Licences: Microsoft 365 Copilot, 8 of 11 seats used; DeepL Pro, 1 of 3 used. Teams: Accountants 86% use AI; Tax advisors under 5 people, not shown; a note that one hidden team can be worked out from the company total" loading="lazy"></a><figcaption>Tap to open full size</figcaption></figure></li>
+
+    <li class="step"><div class="text"><span class="k">5 of 9</span><h2>A business where AI does not pay off yet</h2>
+      <p>The hotel: a second fictional business. It pays €384 a month for licences and saves time worth €259. The tool says so plainly and names the steps that would change it.</p></div>
+      <figure><a href="img/05-hotel.jpg"><img src="img/05-hotel.jpg" alt="Hotel am Rheinufer: November, €259 saved minus €384 licences equals minus €125; 8.6 hours saved, 6 of 29 people use AI, €221 on unused licences; three next steps such as cancelling 7 unused ChatGPT Team seats" loading="lazy"></a><figcaption>Tap to open full size</figcaption></figure></li>
+
+    <li class="step"><div class="text"><span class="k">6 of 9</span><h2>What an employee sees</h2>
+      <p>Back to Becker &amp; Partner. Switch “View as” to Everyone. Costs, licences and single teams are removed from the data before it reaches this view, not just hidden. The value of the time saved stays visible.</p></div>
+      <figure><a href="img/06-everyone.jpg"><img src="img/06-everyone.jpg" alt="The same business seen as Everyone: November, 23.0 hours saved, value of time saved €1,219, no licence costs" loading="lazy"></a><figcaption>Tap to open full size</figcaption></figure></li>
+
+    <li class="step"><div class="text"><span class="k">7 of 9</span><h2>One month, two readers</h2>
+      <p>Each reader gets a separate report file (<a href="example-report-everyone.html">example for Everyone</a>). Numbers for single people are never shown. Designed with §&nbsp;87(1)&nbsp;No.&nbsp;6&nbsp;BetrVG and the EU&nbsp;AI&nbsp;Act in mind. Not legal advice; check with your works council.</p></div>
+      <figure><a href="img/07-readers.jpg"><img src="img/07-readers.jpg" alt="Table comparing what Management and Everyone see for the same month" loading="lazy"></a><figcaption>Tap to open full size</figcaption></figure></li>
+
+    <li class="step"><div class="text"><span class="k">8 of 9</span><h2>Also inside Odoo 18</h2>
+      <p>The same measurement as a native Odoo app with two access groups (Viewer and Manager), a usage import and a pivot per department. Departments under 5 people are combined into “Small teams (combined)”. Shown with test data for the fictional Rheinmark Handels GmbH in a local Odoo 18 Community.</p></div>
+      <figure><a href="img/08-odoo.jpg"><img src="img/08-odoo.jpg" alt="Odoo 18 pivot of the IsAIWorthIt app, filtered to ChatGPT Team: hours saved per department and month, including the row Small teams (combined)" loading="lazy"></a><figcaption>Tap to open full size</figcaption></figure></li>
+
+    <li class="step"><div class="text"><span class="k">9 of 9</span><h2>Export for AI</h2>
+      <p>Copy the report as plain text for ChatGPT, Claude or Copilot, or download it. Only what the current view shows is exported. A read-only MCP server gives AI assistants the same data.</p></div>
+      <figure><a href="img/09-export.jpg"><img src="img/09-export.jpg" alt="The exported text: a Markdown report with this month's numbers and a table by month" loading="lazy"></a><figcaption>Tap to open full size</figcaption></figure></li>
+  </ol>
+
+  <footer><span>Fictional demo businesses, simulated data. Built by Sam Zeidi.</span><span class="links"><a href="https://github.com/samaistudio/IsAIWorthIt">Source on GitHub</a><a href="mailto:contact.samzeidi@gmail.com">contact.samzeidi@gmail.com</a><a href="../">Open the dashboard</a></span></footer>
+</main>
+</body>
+</html>

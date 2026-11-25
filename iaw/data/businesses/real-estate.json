@@ -1,0 +1,171 @@
+{
+ "slug": "real-estate",
+ "name": "Lindenthal Real Estate",
+ "industry": "Real estate",
+ "city": "Cologne",
+ "people": 7,
+ "opted_in": 5,
+ "month": "2026-11",
+ "current": {
+  "month": "2026-11",
+  "active_users": 4,
+  "hours_saved": 11.6,
+  "value_eur": 660,
+  "spend_eur": 203,
+  "net_eur": 457,
+  "correction_rate": 0.164,
+  "benchmark_hours": 11.6
+ },
+ "months": [
+  {
+   "month": "2026-06",
+   "active_users": 0,
+   "hours_saved": 0.0,
+   "value_eur": 0,
+   "spend_eur": 203,
+   "net_eur": -203,
+   "correction_rate": null,
+   "benchmark_hours": 0.0
+  },
+  {
+   "month": "2026-07",
+   "active_users": 1,
+   "hours_saved": 0.8,
+   "value_eur": 48,
+   "spend_eur": 203,
+   "net_eur": -155,
+   "correction_rate": 0.333,
+   "benchmark_hours": 0.8
+  },
+  {
+   "month": "2026-08",
+   "active_users": 4,
+   "hours_saved": 4.8,
+   "value_eur": 266,
+   "spend_eur": 203,
+   "net_eur": 63,
+   "correction_rate": 0.2,
+   "benchmark_hours": 4.8
+  },
+  {
+   "month": "2026-09",
+   "active_users": 4,
+   "hours_saved": 7.7,
+   "value_eur": 425,
+   "spend_eur": 203,
+   "net_eur": 222,
+   "correction_rate": 0.152,
+   "benchmark_hours": 7.7
+  },
+  {
+   "month": "2026-10",
+   "active_users": 4,
+   "hours_saved": 9.6,
+   "value_eur": 517,
+   "spend_eur": 203,
+   "net_eur": 314,
+   "correction_rate": 0.241,
+   "benchmark_hours": 9.6
+  },
+  {
+   "month": "2026-11",
+   "active_users": 4,
+   "hours_saved": 11.6,
+   "value_eur": 660,
+   "spend_eur": 203,
+   "net_eur": 457,
+   "correction_rate": 0.164,
+   "benchmark_hours": 11.6
+  }
+ ],
+ "tasks": [
+  {
+   "task": "Writing texts",
+   "hours_saved": 6.4
+  },
+  {
+   "task": "Emails",
+   "hours_saved": 1.5
+  },
+  {
+   "task": "Spreadsheets & data",
+   "hours_saved": 0.9
+  },
+  {
+   "task": "Customer replies",
+   "hours_saved": 0.8
+  },
+  {
+   "task": "Admin & planning",
+   "hours_saved": 0.5
+  }
+ ],
+ "tools": [
+  {
+   "tool": "ChatGPT Team",
+   "seats": 7,
+   "active_users": 4,
+   "unused_seats": 3,
+   "monthly_cost_eur": 203,
+   "wasted_eur": 87
+  }
+ ],
+ "roles": [
+  {
+   "role": "Agents",
+   "people": 5,
+   "hidden": true
+  },
+  {
+   "role": "Back office",
+   "people": 2,
+   "hidden": true
+  }
+ ],
+ "tips": [
+  {
+   "kind": "save",
+   "text": "3 ChatGPT Team seats were not used in November. Reassigning or cancelling them saves €87/month."
+  },
+  {
+   "kind": "grow",
+   "text": "Most time is saved on writing texts (6.4 h in November). Share the prompts that work as a team template."
+  },
+  {
+   "kind": "train",
+   "text": "AI answers needed fixing 16% of the time. Giving the AI the goal, context and an example up front cuts this."
+  }
+ ],
+ "k_min": 5,
+ "kpis": [
+  {
+   "name": "Viewings arranged",
+   "first_month": "2026-06",
+   "first": 121,
+   "last_month": "2026-11",
+   "last": 146
+  }
+ ],
+ "measurement": {
+  "method": "benchmark",
+  "calibration": {
+   "factor": null,
+   "n": 3,
+   "month": "2026-11",
+   "survey_hours_per_user": 2.5,
+   "benchmark_hours_per_user": 2.9,
+   "capped": false
+  },
+  "evidence": [
+   {
+    "name": "Viewings arranged",
+    "before": 11.52,
+    "after": 12.59,
+    "change": 0.093,
+    "months_before": 1,
+    "months_after": 5
+   }
+  ],
+  "ai_start_month": "2026-07"
+ }
+}

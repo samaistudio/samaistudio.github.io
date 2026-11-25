@@ -1,0 +1,173 @@
+{
+ "slug": "electrician",
+ "name": "Kaya Electrical Services",
+ "industry": "Trades",
+ "city": "Leverkusen",
+ "people": 22,
+ "opted_in": 21,
+ "month": "2026-11",
+ "current": {
+  "month": "2026-11",
+  "active_users": 4,
+  "hours_saved": 1.7,
+  "value_eur": 67,
+  "spend_eur": 232,
+  "net_eur": -165,
+  "correction_rate": 0.297,
+  "benchmark_hours": 1.7
+ },
+ "months": [
+  {
+   "month": "2026-06",
+   "active_users": 0,
+   "hours_saved": 0.0,
+   "value_eur": 0,
+   "spend_eur": 232,
+   "net_eur": -232,
+   "correction_rate": null,
+   "benchmark_hours": 0.0
+  },
+  {
+   "month": "2026-07",
+   "active_users": 0,
+   "hours_saved": 0.0,
+   "value_eur": 0,
+   "spend_eur": 232,
+   "net_eur": -232,
+   "correction_rate": null,
+   "benchmark_hours": 0.0
+  },
+  {
+   "month": "2026-08",
+   "active_users": 0,
+   "hours_saved": 0.0,
+   "value_eur": 0,
+   "spend_eur": 232,
+   "net_eur": -232,
+   "correction_rate": null,
+   "benchmark_hours": 0.0
+  },
+  {
+   "month": "2026-09",
+   "active_users": 0,
+   "hours_saved": 0.0,
+   "value_eur": 0,
+   "spend_eur": 232,
+   "net_eur": -232,
+   "correction_rate": null,
+   "benchmark_hours": 0.0
+  },
+  {
+   "month": "2026-10",
+   "active_users": 0,
+   "hours_saved": 0.0,
+   "value_eur": 0,
+   "spend_eur": 232,
+   "net_eur": -232,
+   "correction_rate": null,
+   "benchmark_hours": 0.0
+  },
+  {
+   "month": "2026-11",
+   "active_users": 4,
+   "hours_saved": 1.7,
+   "value_eur": 67,
+   "spend_eur": 232,
+   "net_eur": -165,
+   "correction_rate": 0.297,
+   "benchmark_hours": 1.7
+  }
+ ],
+ "tasks": [
+  {
+   "task": "Research",
+   "hours_saved": 0.7
+  },
+  {
+   "task": "Admin & planning",
+   "hours_saved": 0.7
+  },
+  {
+   "task": "Emails",
+   "hours_saved": 0.5
+  },
+  {
+   "task": "Customer replies",
+   "hours_saved": 0.1
+  }
+ ],
+ "tools": [
+  {
+   "tool": "ChatGPT Team",
+   "seats": 8,
+   "active_users": 4,
+   "unused_seats": 4,
+   "monthly_cost_eur": 232,
+   "wasted_eur": 116
+  }
+ ],
+ "roles": [
+  {
+   "role": "Office",
+   "people": 4,
+   "hidden": true
+  },
+  {
+   "role": "Electricians",
+   "people": 18,
+   "hidden": false,
+   "adoption": 0.18,
+   "hours_saved": 1.3
+  }
+ ],
+ "tips": [
+  {
+   "kind": "save",
+   "text": "4 ChatGPT Team seats were not used in November. Reassigning or cancelling them saves €116/month."
+  },
+  {
+   "kind": "train",
+   "text": "Only 18% of Electricians use AI. A one-hour hands-on session usually lifts this quickly."
+  },
+  {
+   "kind": "grow",
+   "text": "Most time is saved on research (0.7 h in November). Share the prompts that work as a team template."
+  },
+  {
+   "kind": "train",
+   "text": "AI answers needed fixing 30% of the time. Giving the AI the goal, context and an example up front cuts this."
+  }
+ ],
+ "k_min": 5,
+ "kpis": [
+  {
+   "name": "Jobs invoiced",
+   "first_month": "2026-06",
+   "first": 261,
+   "last_month": "2026-11",
+   "last": 273
+  }
+ ],
+ "measurement": {
+  "method": "benchmark",
+  "calibration": {
+   "factor": null,
+   "n": 3,
+   "month": "2026-11",
+   "survey_hours_per_user": 0.5,
+   "benchmark_hours_per_user": 0.4,
+   "capped": false
+  },
+  "evidence": [
+   {
+    "name": "Jobs invoiced",
+    "before": 7.86,
+    "after": 8.09,
+    "change": 0.03,
+    "months_before": 4,
+    "months_after": 2
+   }
+  ],
+  "ai_start_month": "2026-10"
+ }
+}

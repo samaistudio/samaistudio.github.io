@@ -1,0 +1,187 @@
+{
+ "slug": "online-shop",
+ "name": "Kräuterkiste Online Shop",
+ "industry": "E-commerce",
+ "city": "Aachen",
+ "people": 12,
+ "opted_in": 11,
+ "month": "2026-11",
+ "current": {
+  "month": "2026-11",
+  "active_users": 8,
+  "hours_saved": 20.1,
+  "value_eur": 809,
+  "spend_eur": 321,
+  "net_eur": 488,
+  "correction_rate": 0.077,
+  "benchmark_hours": 25.2
+ },
+ "months": [
+  {
+   "month": "2026-06",
+   "active_users": 3,
+   "hours_saved": 0.5,
+   "value_eur": 19,
+   "spend_eur": 321,
+   "net_eur": -302,
+   "correction_rate": 0.143,
+   "benchmark_hours": 0.6
+  },
+  {
+   "month": "2026-07",
+   "active_users": 8,
+   "hours_saved": 7.3,
+   "value_eur": 299,
+   "spend_eur": 321,
+   "net_eur": -22,
+   "correction_rate": 0.219,
+   "benchmark_hours": 9.1
+  },
+  {
+   "month": "2026-08",
+   "active_users": 8,
+   "hours_saved": 13.2,
+   "value_eur": 537,
+   "spend_eur": 321,
+   "net_eur": 216,
+   "correction_rate": 0.165,
+   "benchmark_hours": 16.5
+  },
+  {
+   "month": "2026-09",
+   "active_users": 8,
+   "hours_saved": 17.2,
+   "value_eur": 677,
+   "spend_eur": 321,
+   "net_eur": 356,
+   "correction_rate": 0.075,
+   "benchmark_hours": 21.5
+  },
+  {
+   "month": "2026-10",
+   "active_users": 8,
+   "hours_saved": 20.3,
+   "value_eur": 810,
+   "spend_eur": 321,
+   "net_eur": 489,
+   "correction_rate": 0.054,
+   "benchmark_hours": 25.4
+  },
+  {
+   "month": "2026-11",
+   "active_users": 8,
+   "hours_saved": 20.1,
+   "value_eur": 809,
+   "spend_eur": 321,
+   "net_eur": 488,
+   "correction_rate": 0.077,
+   "benchmark_hours": 25.2
+  }
+ ],
+ "tasks": [
+  {
+   "task": "Writing texts",
+   "hours_saved": 9.1
+  },
+  {
+   "task": "Translation",
+   "hours_saved": 2.2
+  },
+  {
+   "task": "Design",
+   "hours_saved": 2.2
+  },
+  {
+   "task": "Spreadsheets & data",
+   "hours_saved": 2.1
+  },
+  {
+   "task": "Customer replies",
+   "hours_saved": 1.9
+  },
+  {
+   "task": "Admin & planning",
+   "hours_saved": 1.8
+  },
+  {
+   "task": "Emails",
+   "hours_saved": 0.8
+  }
+ ],
+ "tools": [
+  {
+   "tool": "ChatGPT Team",
+   "seats": 9,
+   "active_users": 7,
+   "unused_seats": 2,
+   "monthly_cost_eur": 261,
+   "wasted_eur": 58
+  },
+  {
+   "tool": "DeepL Pro",
+   "seats": 4,
+   "active_users": 3,
+   "unused_seats": 1,
+   "monthly_cost_eur": 36,
+   "wasted_eur": 9
+  },
+  {
+   "tool": "Canva AI",
+   "seats": 2,
+   "active_users": 1,
+   "unused_seats": 1,
+   "monthly_cost_eur": 24,
+   "wasted_eur": 12
+  }
+ ],
+ "roles": [
+  {
+   "role": "Customer service",
+   "people": 5,
+   "hidden": true
+  },
+  {
+   "role": "Product & marketing",
+   "people": 4,
+   "hidden": true
+  },
+  {
+   "role": "Logistics",
+   "people": 3,
+   "hidden": true
+  }
+ ],
+ "tips": [
+  {
+   "kind": "save",
+   "text": "2 ChatGPT Team seats were not used in November. Reassigning or cancelling them saves €58/month."
+  },
+  {
+   "kind": "grow",
+   "text": "Most time is saved on writing texts (9.1 h in November). Share the prompts that work as a team template."
+  }
+ ],
+ "k_min": 5,
+ "kpis": [
+  {
+   "name": "Orders shipped",
+   "first_month": "2026-06",
+   "first": 2555,
+   "last_month": "2026-11",
+   "last": 2671
+  }
+ ],
+ "measurement": {
+  "method": "calibrated",
+  "calibration": {
+   "factor": 0.8,
+   "n": 6,
+   "month": "2026-11",
+   "survey_hours_per_user": 2.5,
+   "benchmark_hours_per_user": 3.1,
+   "capped": false
+  },
+  "evidence": [],
+  "ai_start_month": "2026-06"
+ }
+}

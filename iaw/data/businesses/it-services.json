@@ -1,0 +1,181 @@
+{
+ "slug": "it-services",
+ "name": "Nordbyte IT Services",
+ "industry": "IT services",
+ "city": "Cologne",
+ "people": 25,
+ "opted_in": 23,
+ "month": "2026-11",
+ "current": {
+  "month": "2026-11",
+  "active_users": 23,
+  "hours_saved": 76.8,
+  "value_eur": 4766,
+  "spend_eur": 916,
+  "net_eur": 3850,
+  "correction_rate": 0.07,
+  "benchmark_hours": 71.2
+ },
+ "months": [
+  {
+   "month": "2026-06",
+   "active_users": 7,
+   "hours_saved": 12.5,
+   "value_eur": 762,
+   "spend_eur": 916,
+   "net_eur": -154,
+   "correction_rate": 0.114,
+   "benchmark_hours": 11.6
+  },
+  {
+   "month": "2026-07",
+   "active_users": 22,
+   "hours_saved": 33.5,
+   "value_eur": 2067,
+   "spend_eur": 916,
+   "net_eur": 1151,
+   "correction_rate": 0.133,
+   "benchmark_hours": 31.1
+  },
+  {
+   "month": "2026-08",
+   "active_users": 23,
+   "hours_saved": 62.2,
+   "value_eur": 3830,
+   "spend_eur": 916,
+   "net_eur": 2914,
+   "correction_rate": 0.122,
+   "benchmark_hours": 57.7
+  },
+  {
+   "month": "2026-09",
+   "active_users": 23,
+   "hours_saved": 71.1,
+   "value_eur": 4440,
+   "spend_eur": 916,
+   "net_eur": 3524,
+   "correction_rate": 0.152,
+   "benchmark_hours": 65.9
+  },
+  {
+   "month": "2026-10",
+   "active_users": 23,
+   "hours_saved": 81.5,
+   "value_eur": 5038,
+   "spend_eur": 916,
+   "net_eur": 4122,
+   "correction_rate": 0.088,
+   "benchmark_hours": 75.6
+  },
+  {
+   "month": "2026-11",
+   "active_users": 23,
+   "hours_saved": 76.8,
+   "value_eur": 4766,
+   "spend_eur": 916,
+   "net_eur": 3850,
+   "correction_rate": 0.07,
+   "benchmark_hours": 71.2
+  }
+ ],
+ "tasks": [
+  {
+   "task": "Programming",
+   "hours_saved": 42.2
+  },
+  {
+   "task": "Research",
+   "hours_saved": 10.7
+  },
+  {
+   "task": "Emails",
+   "hours_saved": 6.5
+  },
+  {
+   "task": "Writing texts",
+   "hours_saved": 6.2
+  },
+  {
+   "task": "Customer replies",
+   "hours_saved": 5.8
+  },
+  {
+   "task": "Spreadsheets & data",
+   "hours_saved": 5.4
+  }
+ ],
+ "tools": [
+  {
+   "tool": "GitHub Copilot",
+   "seats": 12,
+   "active_users": 10,
+   "unused_seats": 2,
+   "monthly_cost_eur": 216,
+   "wasted_eur": 36
+  },
+  {
+   "tool": "Claude Team",
+   "seats": 25,
+   "active_users": 23,
+   "unused_seats": 2,
+   "monthly_cost_eur": 700,
+   "wasted_eur": 56
+  }
+ ],
+ "roles": [
+  {
+   "role": "Developers",
+   "people": 12,
+   "hidden": false,
+   "adoption": 1.0,
+   "hours_saved": 49.7
+  },
+  {
+   "role": "Support",
+   "people": 8,
+   "hidden": false,
+   "adoption": 1.0,
+   "hours_saved": 13.0
+  },
+  {
+   "role": "Sales & admin",
+   "people": 5,
+   "hidden": false,
+   "adoption": 1.0,
+   "hours_saved": 14.1
+  }
+ ],
+ "tips": [
+  {
+   "kind": "save",
+   "text": "2 Claude Team seats were not used in November. Reassigning or cancelling them saves €56/month."
+  },
+  {
+   "kind": "grow",
+   "text": "Most time is saved on programming (42.2 h in November). Share the prompts that work as a team template."
+  }
+ ],
+ "k_min": 5,
+ "kpis": [
+  {
+   "name": "Tickets closed",
+   "first_month": "2026-06",
+   "first": 664,
+   "last_month": "2026-11",
+   "last": 699
+  }
+ ],
+ "measurement": {
+  "method": "calibrated",
+  "calibration": {
+   "factor": 1.08,
+   "n": 19,
+   "month": "2026-11",
+   "survey_hours_per_user": 3.3,
+   "benchmark_hours_per_user": 3.1,
+   "capped": false
+  },
+  "evidence": [],
+  "ai_start_month": "2026-06"
+ }
+}

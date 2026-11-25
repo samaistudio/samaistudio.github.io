@@ -1,0 +1,167 @@
+{
+ "slug": "law-firm",
+ "name": "Schulz Labour Law Firm",
+ "industry": "Legal",
+ "city": "Cologne",
+ "people": 12,
+ "opted_in": 11,
+ "month": "2026-11",
+ "current": {
+  "month": "2026-11",
+  "active_users": 7,
+  "hours_saved": 11.8,
+  "value_eur": 1070,
+  "spend_eur": 336,
+  "net_eur": 734,
+  "correction_rate": 0.085,
+  "benchmark_hours": 10.0
+ },
+ "months": [
+  {
+   "month": "2026-06",
+   "active_users": 0,
+   "hours_saved": 0.0,
+   "value_eur": 0,
+   "spend_eur": 336,
+   "net_eur": -336,
+   "correction_rate": null,
+   "benchmark_hours": 0.0
+  },
+  {
+   "month": "2026-07",
+   "active_users": 0,
+   "hours_saved": 0.0,
+   "value_eur": 0,
+   "spend_eur": 336,
+   "net_eur": -336,
+   "correction_rate": null,
+   "benchmark_hours": 0.0
+  },
+  {
+   "month": "2026-08",
+   "active_users": 0,
+   "hours_saved": 0.0,
+   "value_eur": 0,
+   "spend_eur": 336,
+   "net_eur": -336,
+   "correction_rate": null,
+   "benchmark_hours": 0.0
+  },
+  {
+   "month": "2026-09",
+   "active_users": 3,
+   "hours_saved": 1.1,
+   "value_eur": 109,
+   "spend_eur": 336,
+   "net_eur": -227,
+   "correction_rate": 0.2,
+   "benchmark_hours": 0.9
+  },
+  {
+   "month": "2026-10",
+   "active_users": 7,
+   "hours_saved": 6.5,
+   "value_eur": 635,
+   "spend_eur": 336,
+   "net_eur": 299,
+   "correction_rate": 0.093,
+   "benchmark_hours": 5.5
+  },
+  {
+   "month": "2026-11",
+   "active_users": 7,
+   "hours_saved": 11.8,
+   "value_eur": 1070,
+   "spend_eur": 336,
+   "net_eur": 734,
+   "correction_rate": 0.085,
+   "benchmark_hours": 10.0
+  }
+ ],
+ "tasks": [
+  {
+   "task": "Writing texts",
+   "hours_saved": 7.4
+  },
+  {
+   "task": "Research",
+   "hours_saved": 2.8
+  },
+  {
+   "task": "Admin & planning",
+   "hours_saved": 0.8
+  },
+  {
+   "task": "Emails",
+   "hours_saved": 0.8
+  }
+ ],
+ "tools": [
+  {
+   "tool": "Microsoft 365 Copilot",
+   "seats": 12,
+   "active_users": 7,
+   "unused_seats": 5,
+   "monthly_cost_eur": 336,
+   "wasted_eur": 140
+  }
+ ],
+ "roles": [
+  {
+   "role": "Lawyers",
+   "people": 6,
+   "hidden": false,
+   "adoption": 0.6,
+   "hours_saved": 7.5
+  },
+  {
+   "role": "Paralegals",
+   "people": 6,
+   "hidden": false,
+   "adoption": 0.67,
+   "hours_saved": 4.3
+  }
+ ],
+ "tips": [
+  {
+   "kind": "save",
+   "text": "5 Microsoft 365 Copilot seats were not used in November. Reassigning or cancelling them saves €140/month."
+  },
+  {
+   "kind": "grow",
+   "text": "Most time is saved on writing texts (7.4 h in November). Share the prompts that work as a team template."
+  }
+ ],
+ "k_min": 5,
+ "kpis": [
+  {
+   "name": "Briefs filed",
+   "first_month": "2026-06",
+   "first": 73,
+   "last_month": "2026-11",
+   "last": 85
+  }
+ ],
+ "measurement": {
+  "method": "calibrated",
+  "calibration": {
+   "factor": 1.18,
+   "n": 5,
+   "month": "2026-11",
+   "survey_hours_per_user": 1.7,
+   "benchmark_hours_per_user": 1.4,
+   "capped": false
+  },
+  "evidence": [
+   {
+    "name": "Briefs filed",
+    "before": 4.06,
+    "after": 4.5,
+    "change": 0.11,
+    "months_before": 3,
+    "months_after": 3
+   }
+  ],
+  "ai_start_month": "2026-09"
+ }
+}

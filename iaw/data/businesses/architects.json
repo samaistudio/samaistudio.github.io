@@ -1,0 +1,173 @@
+{
+ "slug": "architects",
+ "name": "Hartmann Architects",
+ "industry": "Architecture",
+ "city": "Bonn",
+ "people": 10,
+ "opted_in": 9,
+ "month": "2026-11",
+ "current": {
+  "month": "2026-11",
+  "active_users": 7,
+  "hours_saved": 14.6,
+  "value_eur": 908,
+  "spend_eur": 200,
+  "net_eur": 708,
+  "correction_rate": 0.169,
+  "benchmark_hours": 14.6
+ },
+ "months": [
+  {
+   "month": "2026-06",
+   "active_users": 0,
+   "hours_saved": 0.0,
+   "value_eur": 0,
+   "spend_eur": 200,
+   "net_eur": -200,
+   "correction_rate": null,
+   "benchmark_hours": 0.0
+  },
+  {
+   "month": "2026-07",
+   "active_users": 0,
+   "hours_saved": 0.0,
+   "value_eur": 0,
+   "spend_eur": 200,
+   "net_eur": -200,
+   "correction_rate": null,
+   "benchmark_hours": 0.0
+  },
+  {
+   "month": "2026-08",
+   "active_users": 1,
+   "hours_saved": 0.4,
+   "value_eur": 25,
+   "spend_eur": 200,
+   "net_eur": -175,
+   "correction_rate": 0.25,
+   "benchmark_hours": 0.4
+  },
+  {
+   "month": "2026-09",
+   "active_users": 7,
+   "hours_saved": 4.3,
+   "value_eur": 246,
+   "spend_eur": 200,
+   "net_eur": 46,
+   "correction_rate": 0.314,
+   "benchmark_hours": 4.3
+  },
+  {
+   "month": "2026-10",
+   "active_users": 7,
+   "hours_saved": 11.1,
+   "value_eur": 669,
+   "spend_eur": 200,
+   "net_eur": 469,
+   "correction_rate": 0.165,
+   "benchmark_hours": 11.1
+  },
+  {
+   "month": "2026-11",
+   "active_users": 7,
+   "hours_saved": 14.6,
+   "value_eur": 908,
+   "spend_eur": 200,
+   "net_eur": 708,
+   "correction_rate": 0.169,
+   "benchmark_hours": 14.6
+  }
+ ],
+ "tasks": [
+  {
+   "task": "Research",
+   "hours_saved": 4.9
+  },
+  {
+   "task": "Writing texts",
+   "hours_saved": 4.8
+  },
+  {
+   "task": "Design",
+   "hours_saved": 2.6
+  },
+  {
+   "task": "Emails",
+   "hours_saved": 0.9
+  },
+  {
+   "task": "Admin & planning",
+   "hours_saved": 0.5
+  }
+ ],
+ "tools": [
+  {
+   "tool": "Gemini for Workspace",
+   "seats": 10,
+   "active_users": 7,
+   "unused_seats": 3,
+   "monthly_cost_eur": 200,
+   "wasted_eur": 60
+  }
+ ],
+ "roles": [
+  {
+   "role": "Architects",
+   "people": 7,
+   "hidden": false,
+   "adoption": 0.83,
+   "hours_saved": 12.3
+  },
+  {
+   "role": "Office",
+   "people": 3,
+   "hidden": true
+  }
+ ],
+ "tips": [
+  {
+   "kind": "save",
+   "text": "3 Gemini for Workspace seats were not used in November. Reassigning or cancelling them saves €60/month."
+  },
+  {
+   "kind": "grow",
+   "text": "Most time is saved on research (4.9 h in November). Share the prompts that work as a team template."
+  },
+  {
+   "kind": "train",
+   "text": "AI answers needed fixing 17% of the time. Giving the AI the goal, context and an example up front cuts this."
+  }
+ ],
+ "k_min": 5,
+ "kpis": [
+  {
+   "name": "Plan revisions delivered",
+   "first_month": "2026-06",
+   "first": 93,
+   "last_month": "2026-11",
+   "last": 102
+  }
+ ],
+ "measurement": {
+  "method": "benchmark",
+  "calibration": {
+   "factor": null,
+   "n": 4,
+   "month": "2026-11",
+   "survey_hours_per_user": 2.0,
+   "benchmark_hours_per_user": 2.1,
+   "capped": false
+  },
+  "evidence": [
+   {
+    "name": "Plan revisions delivered",
+    "before": 6.2,
+    "after": 6.52,
+    "change": 0.051,
+    "months_before": 2,
+    "months_after": 4
+   }
+  ],
+  "ai_start_month": "2026-08"
+ }
+}

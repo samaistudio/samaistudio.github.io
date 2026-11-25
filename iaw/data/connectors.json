@@ -1,0 +1,112 @@
+[
+ {
+  "key": "claude_code_local",
+  "label": "Claude Code (this computer)",
+  "kind": "ai",
+  "provides": "Sessions, active minutes, tools, corrections per day",
+  "how": "Reads ~/.claude/projects on this computer. Each person runs it on their own machine (opt-in).",
+  "status": "tested",
+  "enabled": false,
+  "last": null
+ },
+ {
+  "key": "anthropic_admin",
+  "label": "Claude Code (whole team, Anthropic Admin API)",
+  "kind": "ai",
+  "provides": "Per person and day: sessions, lines of code, commits, pull requests",
+  "how": "Claude Code Analytics API with an Admin API key (sk-ant-admin\u2026) in the env variable you name.",
+  "status": "docs",
+  "enabled": false,
+  "last": null
+ },
+ {
+  "key": "m365_copilot_csv",
+  "label": "Microsoft 365 Copilot",
+  "kind": "ai",
+  "provides": "Per person: last day they used Copilot, per app (anonymised by default)",
+  "how": "Export the per-user table in the Microsoft 365 admin center (Reports \u2192 Usage \u2192 Copilot) and list the CSV files. Export once a month to build up history.",
+  "status": "docs",
+  "enabled": false,
+  "last": null
+ },
+ {
+  "key": "github_copilot",
+  "label": "GitHub Copilot",
+  "kind": "ai",
+  "provides": "Daily active and engaged users for the organisation (no per-person data)",
+  "how": "GitHub Copilot metrics API with an org admin token in the env variable you name. GitHub announced a newer usage-metrics API; this connector may need updating.",
+  "status": "docs",
+  "enabled": false,
+  "last": null
+ },
+ {
+  "key": "usage_csv",
+  "label": "Any AI tool (CSV)",
+  "kind": "ai",
+  "provides": "Per person and day: tool, number of uses, optional minutes",
+  "how": "A CSV with the columns: date, user, tool, uses, minutes (minutes optional). Works for ChatGPT, Gemini, DeepL, Canva, Perplexity \u2026",
+  "status": "tested",
+  "enabled": false,
+  "last": null
+ },
+ {
+  "key": "odoo",
+  "label": "Odoo",
+  "kind": "company",
+  "provides": "Teams and employees, booked hours, and monthly counts of sales orders, invoices, tickets, leads and tasks (whatever apps you use)",
+  "how": "Odoo external API (JSON-RPC) with a user's API key in the env variable you name.",
+  "status": "tested",
+  "enabled": false,
+  "last": null
+ },
+ {
+  "key": "personio",
+  "label": "Personio",
+  "kind": "company",
+  "provides": "Employees and departments (teams)",
+  "how": "Personio API v1 with client ID and secret in the env variables you name.",
+  "status": "docs",
+  "enabled": false,
+  "last": null
+ },
+ {
+  "key": "people_csv",
+  "label": "Team list (CSV)",
+  "kind": "company",
+  "provides": "Who is in which team, and the hourly cost per person or team",
+  "how": "A CSV with the columns: user, team, hourly_cost (hourly_cost optional). Use the same user IDs or e-mails as your AI tool exports.",
+  "status": "tested",
+  "enabled": false,
+  "last": null
+ },
+ {
+  "key": "kpi_csv",
+  "label": "Your own KPIs (CSV)",
+  "kind": "company",
+  "provides": "Any monthly number you track: orders, calls, tickets, revenue",
+  "how": "A CSV with the columns: month (YYYY-MM), name, value.",
+  "status": "tested",
+  "enabled": false,
+  "last": null
+ },
+ {
+  "key": "licences",
+  "label": "Licences and prices",
+  "kind": "company",
+  "provides": "Seats bought per AI tool and the monthly price per seat",
+  "how": "Listed in the config file under connectors.licences.tools.",
+  "status": "tested",
+  "enabled": false,
+  "last": null
+ },
+ {
+  "key": "survey_csv",
+  "label": "Time-saved survey (CSV)",
+  "kind": "company",
+  "provides": "Anonymous monthly answers to: About how much time did AI save you this week?",
+  "how": "Run the one-question form in Microsoft Forms or Google Forms (see docs/SURVEY.md), export the answers as CSV. Columns: month (YYYY-MM), answer, team (optional). Used only when at least 5 people answered.",
+  "status": "tested",
+  "enabled": false,
+  "last": null
+ }
+]
